@@ -4,7 +4,9 @@
 To address the issues of parameter redundancy, high computational cost, and limited real-time performance in deep learning-based intrusion detection, this thesis proposes a lightweight hybrid model named DS-CNN-LSTM. Built upon the CNN-LSTM framework, the proposed model replaces standard convolution with Depthwise Separable Convolution. By decoupling spatial feature extraction from channel-wise feature fusion, the model effectively reduces parameter scale and computational complexity while improving feature extraction efficiency. Furthermore, LSTM is employed to capture temporal dependencies in network traffic, thereby preserving strong representation capability under a lightweight architecture.Experimental results on the NSL-KDD dataset demonstrate that the proposed model achieves a favorable balance between detection performance and computational efficiency. Compared with the conventional CNN-LSTM model, the DS-CNN-LSTM model reduces the number of parameters by 31.71% and decreases inference time by over 68%, indicating significant improvements in efficiency. In terms of detection performance, the model achieves an accuracy of 0.97, while the recall increases from 0.89 to 0.95, demonstrating enhanced capability in identifying attack behaviors.In summary, the proposed DS-CNN-LSTM model effectively balances model complexity and detection performance, providing a feasible lightweight solution for efficient deployment of intrusion detection systems in resource-constrained environments.<br>
 ## 项目声明 Project Statement
 本项目的作者及单位：<br>
-The author and affiliation of this project<br>
-项目名称（Project Name）：DS-CNN-LSTM<br>
-项目作者（Author）：Yue Fan<br>
-作者单位（Affiliation）：暨南大学网络空间安全学院（College of Cyber Security，Jinan University）<br>
+<pre>
+  The author and affiliation of this project<br>
+  项目名称（Project Name）：DS-CNN-LSTM<br>
+  项目作者（Author）：Yue Fan<br>
+  作者单位（Affiliation）：暨南大学网络空间安全学院（College of Cyber Security，Jinan University）<br>
+</pre>
