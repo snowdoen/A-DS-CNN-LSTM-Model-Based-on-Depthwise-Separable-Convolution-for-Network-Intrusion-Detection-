@@ -1,0 +1,2 @@
+# A-DS-CNN-LSTM-Model-Based-on-Depthwise-Separable-Convolution-for-Network-Intrusion-Detection-
+针对网络入侵检测中深度学习模型普遍存在参数冗余大、计算开销高以及难以满足实时性需求的问题，本文提出一种基于深度可分离卷积的轻量化混合模型DS-CNN-LSTM（Depthwise Separable Convolutional Neural Network-Long Short-Term Memory）。该模型在卷积神经网络-长短期记忆网络（Convolutional Neural Network-Long Short-Term Memory, CNN-LSTM）框架基础上，将标准卷积替换为深度可分离卷积，通过将空间特征提取与通道特征融合过程进行解耦，有效降低模型参数规模与计算复杂度，同时提升特征提取效率。
